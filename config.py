@@ -1,0 +1,12 @@
+wifi_ssid = "ssid"
+wifi_password = "password"
+wifi_connect_max_retries = 5
+dhcp_hostname = "ESP32_B"
+mqtt_server = "ip"
+mqtt_port = 1883
+mqtt_group = "group"
+mqtt_device = dhcp_hostname
+ow_pin = 23
+sample_period_ms = 1000
+watchdog_enabled = True
+watchdog_timeout_ms = 5000
