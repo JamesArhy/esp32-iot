@@ -46,20 +46,6 @@ def mqtt_connect():
     return c
 
 
-# def wifi_connect():
-#     sta_if = network.WLAN(network.STA_IF)
-#     if not sta_if.isconnected():
-#         sta_if.active(True)
-#         print(f"connecting to ssid {config.wifi_ssid}...")
-#         sta_if.connect(config.wifi_ssid, config.wifi_password)
-#         if sta_if.isconnected():
-#             return True
-#         else:
-#             return False
-#     else:
-#         return True
-
-
 # def get_temp_f():
 def c_to_f(c: float):
     f = (c * 9 / 5) + 32
